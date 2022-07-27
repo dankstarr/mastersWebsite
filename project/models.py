@@ -7,7 +7,7 @@ class User(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     email = db.Column(db.String, unique=True, nullable=False)
-    _password = db.Column(db.Binary(60), nullable=False)
+    _password = db.Column(db.BINARY(60), nullable=False)
     authenticated = db.Column(db.Boolean, default=False)
     email_confirmation_sent_on = db.Column(db.DateTime, nullable=True)
     email_confirmed = db.Column(db.Boolean, nullable=True, default=False)

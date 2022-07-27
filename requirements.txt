@@ -6,13 +6,13 @@ blinker==1.4
 certifi==2018.10.15
 cffi==1.14.5
 chardet==3.0.4
-Click==8.0
+Click==7.0
 configparser==3.5.0
 coverage==4.4.2
 cryptography==3.3.2
 enum34==1.1.6
 flake8==3.3.0
-Flask==2.1.0
+Flask==1.0.2
 Flask-Bcrypt==0.7.1
 Flask-Login==0.4.0
 Flask-Mail==0.9.1
@@ -24,8 +24,8 @@ Flask-WTF==0.15.1
 funcsigs==1.0.2
 gunicorn==19.7.1
 idna==2.7
-itsdangerous==2.0
-Jinja2==3.0
+itsdangerous==0.24
+Jinja2==2.11.3
 Mako==1.0.6
 MarkupSafe==2.0.1
 mccabe==0.6.1
